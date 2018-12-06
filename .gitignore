@@ -1,0 +1,9 @@
+test-output
+target
+logs/*.log
+.DS_Store
+Snapshots/*.mov
+Snapshots/*.png
+Snapshots/*.html
+Snapshots/*.txt
+Files/*.txt

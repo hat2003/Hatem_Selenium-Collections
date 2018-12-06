@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+
+  <!-- 	<groups>
+		<run>
+			<include name="Pricing"></include>
+		</run>
+	</groups> -->
+
+
+  <test thread-count="5" name="Test">
+    <classes>
+    
+    	<class name="pageObject.testConfig"/> 
+    	
+  <class name="regressionTestCases.Check_Producer_Response"/> 
+     
+     <class name="regressionTestCases.Energy_Signup_Test_Energy_Signup_Beste_deal_Producer"/>
+     <class name="regressionTestCases.Energy_Signup_Test_Energy_Signup_Uitgelicht_Producer"/>
+     <class name="regressionTestCases.Energy_Signup_Test_Energy_Signup_Dichtbij_Producer"/>
+     <class name="regressionTestCases.Energy_Signup_Test_Energy_Signup_With_Electricity_And_Gaz"/>
+     <class name="regressionTestCases.Energy_Signup_Test_Energy_Signup_With_Electricity_Only"/>
+     <class name="regressionTestCases.Energy_Signup_Test_Three_Years_Contract"/>
+     <class name="regressionTestCases.Energy_Signup_Test_One_Year_Contract"/>
+     <class name="regressionTestCases.Energy_Signup_Test_Variable_Contract"/>
+     
+     <class name="regressionTestCases.Thank_You_Page_price_after_Producer_Details_Page_Sign_Up_With_Best_Deal_Producer_one_Year_Contract"/>
+     <class name="regressionTestCases.Thank_You_Page_price_after_Producer_Details_Page_Sign_Up_With_Best_Deal_Producer_Three_Years_Contract"/>
+     <class name="regressionTestCases.Thank_You_Page_price_after_Producer_Details_Page_Sign_Up_With_Best_Deal_Producer_Variable_Contract"/>
+
+     <class name="regressionTestCases.Thank_You_Page_price_after_Producer_Details_Page_Sign_Up_With_Dichtbij_Producer_one_Year_Contract"/>
+     <class name="regressionTestCases.Thank_You_Page_price_after_Producer_Details_Page_Sign_Up_With_Dichtbij_Producer_Three_Years_Contract"/>
+     <class name="regressionTestCases.Thank_You_Page_price_after_Producer_Details_Page_Sign_Up_With_Dichtbij_Producer_Variable_Contract"/> 
+ 
+     <class name="regressionTestCases.Thank_You_Page_price_after_Producer_Details_Page_Sign_Up_With_Uitgelicht_Producer_one_Year_Contract"/>
+     <class name="regressionTestCases.Thank_You_Page_price_after_Producer_Details_Page_Sign_Up_With_Uitgelicht_Producer_Three_Years_Contract"/>
+     <class name="regressionTestCases.Thank_You_Page_price_after_Producer_Details_Page_Sign_Up_With_Uitgelicht_Producer_Variable_Contract"/>
+     
+     <class name="regressionTestCases.Thank_You_Page_price_after_Energy_Page_Sign_Up_With_A_Producer_One_Year_Contract"/>
+     <class name="regressionTestCases.Thank_You_Page_price_after_Energy_Page_Sign_Up_With_A_Producer_Three_Years_Contract"/>
+     <class name="regressionTestCases.Thank_You_Page_price_after_Energy_Page_Sign_Up_With_A_Producer_Variable_Contract"/>
+         
+      <class name="regressionTestCases.Thank_You_Check_Price_Beste_deal_Producer_Wizard"/> 
+      <class name="regressionTestCases.Thank_You_Check_Price_Dightbij_Producer_Wizard"/> 
+      <class name="regressionTestCases.Thank_You_Check_Price_Uitgelicht_Producer_Wizard"/> 
+          
+     <class name="regressionTestCases.laadpaal_Signup_Flow"/>
+     <class name="regressionTestCases.laadpas_Signup_Flow"/>
+     <class name="regressionTestCases.Login_to_consumer_dashboard"/>
+     
+     <class name="regressionTestCases.Check_If_Best_Deal_Price_is_Less_Than_Dichtbij_And_Uitgelicht_for_Three_Years_Contract"/>
+     <class name="regressionTestCases.Check_If_Best_Deal_Price_is_Less_Than_Dichtbij_And_Uitgelicht_for_One_Year_Contract"/>
+      <class name="regressionTestCases.Check_If_Best_Deal_Price_is_Less_Than_Dichtbij_And_Uitgelicht_for_Variable_Contract"/> 
+       
+     <class name="regressionTestCases.Test_Three_Years_Contract_Price_For_Best_Deal_Producer_between_Best_Deal_Page_and_Producer_Page"/>
+     <class name="regressionTestCases.Test_Three_Years_Contract_Price_For_Dichtbij_Producer_between_Best_Deal_Page_and_Producer_Page"/>
+     <class name="regressionTestCases.Test_Three_Years_Contract_Price_For_Uitgelicht_Producer_between_Best_Deal_Page_and_Producer_Page"/>
+        
+     <class name="regressionTestCases.Test_One_Year_Contract_Price_For_Dichtbij_Producer_between_Best_Deal_Page_and_Producer_Page"/>
+     <class name="regressionTestCases.Test_One_Year_Contract_Price_For_Uitgelicht_Producer_between_Best_Deal_Page_and_Producer_Page2"/>
+     <class name="regressionTestCases.Test_One_Year_Contract_Price_For_Best_Deal_Producer_between_Best_Deal_Page_and_Producer_Page"/>
+                    
+     <class name="regressionTestCases.Test_Variable_Contract_Price_For_Best_Deal_Producer_between_Best_Deal_Page_and_Producer_Page"/>
+     <class name="regressionTestCases.Test_Variable_Contract_Price_For_Dichtbij_Producer_between_Best_Deal_Page_and_Producer_Page"/>
+     <class name="regressionTestCases.Test_Variable_Contract_Price_For_Uitgelicht_Producer_between_Best_Deal_Page_and_Producer_Page"/>   
+           
+     <class name="regressionTestCases.Compair_Three_Years_Contract_Price_For_Best_Deal_Producer_between_Best_Deal_Page_and_Coonect_Form_Page"/>
+     <class name="regressionTestCases.Compair_One_Year_Contract_Price_For_Best_Deal_Producer_between_Best_Deal_Page_and_Coonect_Form_Page"/>
+     <class name="regressionTestCases.Compair_Variable_Contract_Price_For_Best_Deal_Producer_between_Best_Deal_Page_and_Coonect_Form_Page"/>
+     
+     <class name="regressionTestCases.Compair_Three_Years_Contract_Price_For_Uitgelicht_Producer_between_Best_Deal_Page_and_Coonect_Form_Page"/>
+     <class name="regressionTestCases.Compair_One_Year_Contract_Price_For_Uitgelicht_Producer_between_Best_Deal_Page_and_Coonect_Form_Page"/>
+     <class name="regressionTestCases.Compair_Variable_Contract_Price_For_Uitgelicht_Producer_between_Best_Deal_Page_and_Coonect_Form_Page"/>
+      
+     <class name="regressionTestCases.Compair_Three_Years_Contract_Price_For_Dichtbij_Producer_between_Best_Deal_Page_and_Coonect_Form_Page"/>
+     <class name="regressionTestCases.Compair_One_Year_Contract_Price_For_Dichtbij_Producer_between_Best_Deal_Page_and_Coonect_Form_Page"/>
+     <class name="regressionTestCases.Compair_Variable_Contract_Price_For_Dichtbij_Producer_between_Best_Deal_Page_and_Coonect_Form_Page"/>
+      
+      
+      
+      <class name="regressionTestCases.Price_Check_Three_Years_Contract_Price_For_Best_Deal_Producer_between_Best_Deal_Page_and_Producer_Page_And_Connect_Form"/>
+      <class name="regressionTestCases.Price_Check_One_Year_Contract_Price_For_Best_Deal_Producer_between_Best_Deal_Page_and_Producer_Page_And_Connect_Form"/>
+      <class name="regressionTestCases.Price_Check_Variable_Contract_Price_For_Best_Deal_Producer_between_Best_Deal_Page_and_Producer_Page_And_Connect_Form"/>
+
+
+
+      <class name="regressionTestCases.Price_Check_Three_Years_Contract_Price_For_Dichtbij_Producer_between_Best_Deal_Page_and_Producer_Page_And_Connect_Form"/>
+      <class name="regressionTestCases.Price_Check_One_Year_Contract_Price_For_Dichtbij_Producer_between_Best_Deal_Page_and_Producer_Page_And_Connect_Form"/>
+      <class name="regressionTestCases.Price_Check_Variable_Contract_Price_For_Dichtbij_Producer_between_Best_Deal_Page_and_Producer_Page_And_Connect_Form"/>
+      
+      
+      
+      <class name="regressionTestCases.Price_Check_Three_Years_Contract_Price_For_Uitgelicht_Producer_between_Best_Deal_Page_and_Producer_Page_And_Connect_Form"/>
+      <class name="regressionTestCases.Price_Check_One_Year_Contract_Price_For_Uitgelicht_Producer_between_Best_Deal_Page_and_Producer_Page_And_Connect_Form"/>
+      <class name="regressionTestCases.Price_Check_Variable_Contract_Price_For_Uitgelicht_Producer_between_Best_Deal_Page_and_Producer_Page_And_Connect_Form"/>
+      
+     
+      <class name="regressionTestCases.Icons_Test_Electricity_Only"/>
+      <class name="regressionTestCases.Icons_Test_Electricity_And_Gas"/>
+
+
+
+      <class name="regressionTestCases.Top_FAQ_Test_Search_Box_First_Option"/>
+      <class name="regressionTestCases.Top_FAQ_Test_Search_Box_Second_Option"/>
+      <class name="regressionTestCases.Top_FAQ_Test_Search_Box_Third_Option"/> 
+      <class name="regressionTestCases.testAllFooterLinks"/>  
+      
+
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
