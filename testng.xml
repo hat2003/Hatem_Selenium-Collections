@@ -4,17 +4,18 @@
 
 
 
-	<groups>
+	<!-- <groups>
 		<run>
 			<include name="Group1"></include>
 		</run>
-	</groups>
+	</groups> -->
 
 
 	<test thread-count="5" name="Test">
+		<parameter name="Parm1" value="Val1"></parameter>
+		
 		<classes>
-			<class name="config.testConfig" />
-			<class name="packageName.ClassName" />
+			<class name="testNG.Parameters_In_TestNG_XML" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
