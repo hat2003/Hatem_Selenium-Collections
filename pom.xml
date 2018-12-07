@@ -34,6 +34,9 @@
 
 	<dependencies>
 
+
+
+
 		<!--Log4j API Dependency -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
@@ -55,12 +58,6 @@
 			<version>2.6</version>
 		</dependency>
 		
-		<!-- https://mvnrepository.com/artifact/com.github.klieber/phantomjs -->
-<dependency>
-   <groupId>io.github.bonigarcia</groupId>
-   <artifactId>webdrivermanager</artifactId>
-    <version>3.0.0</version>
-</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
 		<dependency>
