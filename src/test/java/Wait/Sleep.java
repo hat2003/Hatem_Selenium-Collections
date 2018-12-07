@@ -1,4 +1,4 @@
-package seleniumWait;
+package Wait;
 
 import java.util.concurrent.TimeUnit;
 
